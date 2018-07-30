@@ -53,7 +53,7 @@ function makeLinks($nav1)
     foreach($nav1 as $url => $text){
         
         if($url == THIS_PAGE){
-            $myReturn .= "<li><a class=\"selected\" href=\"$url\">$text</a></li>";
+            $myReturn .= "<li><a class=\"selected\"  href=\"$url\">$text</a></li>";
         }else{
             $myReturn .= "<li><a href=\"$url\">$text</a></li>";
         }
