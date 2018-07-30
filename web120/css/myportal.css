@@ -1,0 +1,174 @@
+/* GLOBAL STYLES */
+
+body {
+    font-family:"century gothic",verdana,sans-serif;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.desktop {
+    height:350px;
+    float: left;
+}
+
+header{
+    text-align: center;
+}
+
+.contact{
+	width: 320px;
+    float:left;
+}
+
+section.contact h2{
+    text-align: left;
+}
+
+div.form{
+    margin: auto;
+    width: 320px;
+    float:left;
+}
+
+.about{
+	text-align:left;
+}
+
+div.me{
+    margin: auto;
+    width: 500px;
+    float: right;
+    min-height: 400px;
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 3em;
+    clear: both;
+}
+
+
+
+/* DESKTOP */
+@media all and (min-width:1279px) {
+  
+    html {
+        background-color: #fff;
+    }
+    
+    body {
+        background-color:#000;
+        color: #fff;
+        width: 70%;
+        margin: auto;
+        padding: 2em;
+        min-height: 700px;
+    }
+    
+    img.tablet, img.phone {
+        display: none;   
+    }
+    
+}
+
+
+/* TABLET */
+@media all and (min-width:481px) and (max-width:1278px) {
+    html {
+        background-color:#f1f1f1;
+    }
+    
+    body {
+        background-color:#00c;
+        color: #fff;
+        width: 65%;
+        margin: auto;
+        padding: 2em;
+        min-height: 500px;
+		}
+	
+	img.tablet {
+    	height:150px;
+    	display: inline;
+        margin-left: 35%;
+	}
+	
+	.contact{
+		width:100%;
+		}
+		
+	section.contact h2{
+		text-align: center;
+		}
+	
+	div.form{
+    	margin: 0 auto;
+    	width: 320px;
+		float:none;
+	}
+	
+	.about{
+		text-align:left;
+	}
+
+	div.me{
+    	margin: auto;
+    	width: 80%;
+    	float: none;
+    	min-height: 350px;
+	}
+    
+    img.desktop, img.phone {
+        display: none;   
+    }
+}
+
+
+/*PHONE*/
+@media all and (max-width: 480px){
+    body {
+        background-color:#0f0;
+        color: #000;          
+    }
+	
+	img.phone {
+    	height:150px;
+    	display: inline;
+		margin-left: 20%;
+	}
+	
+	.contact{
+		width:90%;
+		}
+		
+	section.contact h2{
+		text-align: center;
+		}
+	
+	div.form{
+    	margin: 0 auto;
+    	width: 100%;
+		float:none;
+	}
+	
+	.about{
+		text-align:left;
+	}
+
+	div.me{
+    	margin: auto;
+    	width: 80%;
+    	float: none;
+    	min-height: 350px;
+	}
+    
+    img.desktop, img.tablet {
+        display: none;   
+    }
+}
+
+
+
+
+
